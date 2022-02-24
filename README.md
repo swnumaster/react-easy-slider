@@ -26,3 +26,7 @@ const MyComponent = () => (
 
 render(<MyComponent />, document.getElementById(node));
 ```
+
+# Change log
+
+v1.0.3      modify README.md and add README-for-developers.md

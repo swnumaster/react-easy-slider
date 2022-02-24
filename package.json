@@ -1,6 +1,6 @@
 {
   "name": "react-easy-slider",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Great React Slider Component",
   "main": "dist/index.js",
   "typing": "src/index.d.ts",
