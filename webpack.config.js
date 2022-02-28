@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const htmlWebpackPlugin = new HtmlWebpackPlugin({
-    template: path.join(__dirname, "demo/index.html"),
+    template: path.join(__dirname, "demo/src/index.html"),
     filename: "./index.html"
 });
 
@@ -15,9 +15,9 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
     devServer is to set the host and port of the web server (host is not necessary)
  */
 module.exports = {
-    entry: path.join(__dirname, "demo/index.js"),
+    entry: path.join(__dirname, "demo/src/index.js"),
     output: {
-        path: path.join(__dirname, "dist-for-demo"),
+        path: path.join(__dirname, "demo/dist"),
         filename: "bundle.js"
     },
     module: {

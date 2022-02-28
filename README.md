@@ -29,4 +29,10 @@ render(<MyComponent />, document.getElementById(node));
 
 # Change log
 
-v1.0.3      modify README.md and add README-for-developers.md
+    v1.0.4      
+
+        ignore unecessary files
+
+    v1.0.3      
+
+        modify README.md and add README-for-developers.md

@@ -1,11 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
-import ReactEasySlider from '../src';
+import ReactEasySlider from '../../src';
 
 // 仅做演示作用的配置数据
-var imgUrl1 = require('../src/static/images/slide1.jpg');    // 模块化方式引用图片路径，这样引用的图片才可以打包进dist文件夹
-var imgUrl2 = require('../src/static/images/slide2.jpg');
-var imgUrl3 = require('../src/static/images/slide3.jpg');
+var imgUrl1 = require('../../src/static/images/slide1.jpg');    // 模块化方式引用图片路径，这样引用的图片才可以打包进dist文件夹
+var imgUrl2 = require('../../src/static/images/slide2.jpg');
+var imgUrl3 = require('../../src/static/images/slide3.jpg');
 
 let imageList = [
     {url: imgUrl1},
@@ -20,7 +20,7 @@ let imageList = [
 ];
 //
 
-var packageJson = require('../package.json');
+var packageJson = require('../../package.json');
 
 const App = () => (
     <React.Fragment>
