@@ -29,6 +29,11 @@ render(<MyComponent />, document.getElementById(node));
 
 # Change log
 
+    v1.0.5
+
+        change webpack4 to webpack5 and remove url-loader, file-loader, svg-url-loader
+        upgrade other packages for development
+
     v1.0.4      
 
         ignore unecessary files
